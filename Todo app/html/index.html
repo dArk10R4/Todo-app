@@ -1,0 +1,57 @@
+<!DOCTYPE html class="">
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>To Do</title>
+  <link rel="stylesheet" href="../style/css/theme.css" />
+  <link rel="stylesheet" href="../style/css/module.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body class="" id="body">
+  <header class="header">
+    <h1 class="h1">TO DO</h1>
+    <img src="../style/images/icon-moon.svg" alt="salam" id="changemode" />
+  </header>
+  <main>
+    <form action="#" id="form">
+      <div id="formdiv" class="form__divinp ">
+        <label for="inp" id="label">
+          <input type="checkbox" name="inpcheck" id="inpcheck" class="check" />
+          <input type="text" name="inp" id="inp" class="" placeholder="Create a new todo…" autocomplete="off" />
+        </label>
+      </div>
+      <div class="main__divwithli" id="formdiv2">
+        <ul id="list" class="list">
+          <li id="1" class="listLi">
+            <div class="list_li__div">
+              <input type="checkbox" name="taskckeck" id="" class="licheck" />
+              <p class="li__p">Complete online JavaScript course</p>
+            </div>
+            <img src="../style/images/icon-cross.svg" alt="" class="list_li__img">
+          </li>
+        </ul>
+        <div class="form__div3" id="filterDiv">
+          <p class="form__div3__p" id="divp">1 item left</p>
+          <div id="filertodo" class="">
+            <button class="form__div3__div__button filter" type="button" id="all">All</button><button type="button"
+              class="form__div3__div__button" id="active">Active</button><button type="button"
+              class="form__div3__div__button" id="completed">Completed</button>
+          </div>
+          <button class="form__div3__button" type="button" id="clearCompleted">Clear Completed</button>
+        </div>
+      </div>
+    </form>
+  </main>
+  <footer class="footer">
+    <p>Drag and drop to reorder list</p>
+  </footer>
+  <script src="../js/script.js"></script>
+</body>
+
+</html>
